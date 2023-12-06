@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+}
+li{
+    list-style: none;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+}
+.logo h1{
+    font-family: '宋体', 'Microsoft YaHei', sans-serif;
+    cursor: pointer;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 1px 0 1px 0;
+    color: rgb(255, 157, 0);
+}
+.logo h1:hover{
+    color: pink;
+}
+.logo p{
+    font-size: 13px;
+    color:rgb(255, 192, 203);
+}
+.nav{
+    width: 100%;
+    border-top: 1px solid rgba(128, 128, 128, 0.25);
+    border-bottom:1px solid rgba(128, 128, 128, 0.25) ;
+}
+.nav>ul{
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+}
+.nav>ul>li{
+    position: relative;
+    margin: 0 20px;
+}
+.nav ul li a{
+    color:rgb(100, 128, 0);
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: rgb(0, 238, 255);
+}
+.nav ul li ul{
+    display: none;
+    position: absolute;
+    top:15px;
+    left: -10px;
+    padding: 5px;
+    width: 80px;
+}
+.nav>ul>li:hover ul{
+    display: block;
+}
+.nav>ul>li.show ul{
+    display: block;
+}
+.Saying{
+    width: 100%;
+    margin: auto;
+}
+.Saying h2{
+    font-family: '宋体', 'Microsoft YaHei', sans-serif;
+    display: flex;    
+    margin-left: 100px;
+    color: rgba(255, 174, 0, 0.863);
+    font-size: 24px;
+}
+.Saying h2::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 27px;
+    margin-right: 10px;
+    background:orange;
+}
+
+.Saying h3{
+    font-family: '宋体', 'Microsoft YaHei', sans-serif;
+    display: flex;    
+    margin-left: 100px;
+    color: rgba(255, 174, 0, 0.571);
+    font-size: 24px;
+}
+.Saying h3::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 27px;
+    margin-right: 10px;
+    background:orange;
+}
+.Saying .a{ 
+    font-family: '楷体', '楷体_GB2312', KaiTi, STKaiti, serif;
+    margin-left: 175px;
+    margin-right: 150px;
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 20px;
+}
+.Saying .a1{ 
+    font-family: '楷体', '楷体_GB2312', KaiTi, STKaiti, serif;
+    margin-left: 200px;
+    margin-right: 100px;
+    color: grey;
+    font-size: 16px;
+}
+.Saying .b{
+    font-family: '宋体', 'Microsoft YaHei', sans-serif;
+    margin-left: 200px;
+    color:rgba(255, 255, 255, 0.527);
+    font-size: 23px;
+}
+.Saying .c{
+    font-family: '宋体', 'Microsoft YaHei', sans-serif;
+    margin-left: 1100px;
+    color:rgba(255, 255, 255, 0.527);
+    font-size: 18px;
+}
+.Saying .d{
+    font-family: '楷体', '楷体_GB2312', KaiTi, STKaiti, serif;
+    margin-left: 200px;
+    color:rgba(255, 255, 255, 0.527);
+    font-size: 23px;
+}
+.Saying .d1{
+    font-family: '楷体', '楷体_GB2312', KaiTi, STKaiti, serif;
+    margin-left: 1100px;
+    color:rgba(255, 255, 255, 0.527);
+    font-size: 23px;
+}

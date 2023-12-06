@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+    background-color: rgb(0, 183, 255);     
+}
+li{
+    list-style: none;
+}
+.nav{
+    width: 100%;
+    border-top: 1px solid rgba(128, 128, 128, 0.25);
+    border-bottom:1px solid rgba(128, 128, 128, 0.25) ;
+}
+.nav>ul{
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+}
+.nav>ul>li{
+    position: relative;
+    margin: 0 20px;
+}
+.nav ul li a{
+    color:rgb(0, 128, 98);
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav ul li a:hover{
+    color: rgb(0, 238, 255);
+}
+.nav ul li ul{
+    display: none;
+    position: absolute;
+    top:20px;
+    left: -10px;
+    padding: 5px;
+    width: 100px;
+}
+.nav>ul>li:hover ul{
+    display: block;
+}
+.nav>ul>li.show ul{
+    display: block;
+}
+.banner {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+}
+.banner img {
+    width: 15%; /* 设置图片的宽度 */
+    height: 150px; /* 让高度按比例自动调整 */
+}
+.HS h1{
+    font-family: '宋体', 'Microsoft YaHei', sans-serif;
+    display: flex;    
+    margin-left: 100px;
+    color: rgba(255, 255, 255, 0.594);
+    font-size: 20px;
+}
+.HS h1::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 23px;
+    margin-right: 10px;
+    background:rgba(255, 255, 255, 0.614);
+}
+.video1 {
+    display: flex;
+    justify-content: space-between; /* 将两个视频元素推到两侧 */
+    align-items: center; /* 垂直居中 */
+}
+
+.video1 video {
+    max-width: 20%; /* 设置视频元素的最大宽度 */
+    height: auto; /* 让高度按比例自动调整 */
+    margin-left: 140px;
+    margin-right: 25px;
+}
+.video2 {
+    display: flex;
+    justify-content: space-between; /* 将两个视频元素推到两侧 */
+    align-items: center; /* 垂直居中 */
+}
+
+.video2 video {
+    max-width: 20%; /* 设置视频元素的最大宽度 */
+    height: auto; /* 让高度按比例自动调整 */
+    margin-left: 140px;
+    margin-right: 25px;
+}
+.help h1{
+    font-family: '宋体', 'Microsoft YaHei', sans-serif;
+    display: flex;    
+    margin-left: 100px;
+    color: rgba(255, 255, 255, 0.594);
+    font-size: 20px;
+}
+.help h1::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 23px;
+    margin-right: 10px;
+    background:rgba(255, 255, 255, 0.614);
+}
+.he1 {
+    max-width: 25%; 
+    height: auto; /* 保持图片宽高比 */
+    margin-left: 10%;
+}
+.he2 {
+    max-width: 25%; 
+    height: auto; /* 保持图片宽高比 */
+    margin-left: 35%;
+}
+.re h1{
+    font-family: '宋体', 'Microsoft YaHei', sans-serif;
+    display: flex;    
+    margin-left: 100px;
+    color: rgba(255, 255, 255, 0.594);
+    font-size: 20px;
+}
+.re h1::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 23px;
+    margin-right: 10px;
+    background:rgba(255, 255, 255, 0.614);
+}
